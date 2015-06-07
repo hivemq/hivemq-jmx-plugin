@@ -16,9 +16,9 @@
 
 package com.hivemq.plugins.metrics.jmx.plugin;
 
-import com.dcsquare.hivemq.spi.HiveMQPluginModule;
-import com.dcsquare.hivemq.spi.PluginEntryPoint;
-import com.dcsquare.hivemq.spi.plugin.meta.Information;
+import com.hivemq.spi.HiveMQPluginModule;
+import com.hivemq.spi.PluginEntryPoint;
+import com.hivemq.spi.plugin.meta.Information;
 
 
 /**

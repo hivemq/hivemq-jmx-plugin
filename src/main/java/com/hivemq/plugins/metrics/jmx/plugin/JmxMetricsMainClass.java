@@ -16,8 +16,8 @@
 
 package com.hivemq.plugins.metrics.jmx.plugin;
 
-import com.dcsquare.hivemq.spi.PluginEntryPoint;
-import com.dcsquare.hivemq.spi.callback.registry.CallbackRegistry;
+import com.hivemq.spi.PluginEntryPoint;
+import com.hivemq.spi.callback.registry.CallbackRegistry;
 import com.google.inject.Inject;
 import com.hivemq.plugins.metrics.jmx.callbacks.StartJmxReporting;
 

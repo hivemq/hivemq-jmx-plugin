@@ -18,10 +18,10 @@ package com.hivemq.plugins.metrics.jmx.callbacks;
 
 import com.codahale.metrics.JmxReporter;
 import com.codahale.metrics.MetricRegistry;
-import com.dcsquare.hivemq.spi.callback.CallbackPriority;
-import com.dcsquare.hivemq.spi.callback.events.broker.OnBrokerStart;
-import com.dcsquare.hivemq.spi.callback.events.broker.OnBrokerStop;
-import com.dcsquare.hivemq.spi.callback.exception.BrokerUnableToStartException;
+import com.hivemq.spi.callback.CallbackPriority;
+import com.hivemq.spi.callback.events.broker.OnBrokerStart;
+import com.hivemq.spi.callback.events.broker.OnBrokerStop;
+import com.hivemq.spi.callback.exception.BrokerUnableToStartException;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
