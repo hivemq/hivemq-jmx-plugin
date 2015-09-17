@@ -24,7 +24,7 @@ import com.hivemq.plugins.metrics.jmx.callbacks.StartJmxReporting;
 import javax.annotation.PostConstruct;
 
 /**
- * This is the main class of the plugin, which is instanciated during the HiveMQ start up process.
+ * This is the main class of the plugin, which is instanced during the HiveMQ start up process.
  */
 public class JmxMetricsMainClass extends PluginEntryPoint {
 
