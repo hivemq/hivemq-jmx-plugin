@@ -27,7 +27,7 @@ import com.hivemq.spi.plugin.meta.Information;
  *
  * @author Christoph Schaebel
  */
-@Information(name = "HiveMQ JMX Metrics Reporting Plugin", author = "dc-square", version = "3.0.0")
+@Information(name = "HiveMQ JMX Metrics Reporting Plugin", author = "dc-square GmbH", version = "3.0.0")
 public class JmxMetricsPluginModule extends HiveMQPluginModule {
 
     @Override
