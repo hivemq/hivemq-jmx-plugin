@@ -1,0 +1,27 @@
+:hivemq-blog-tools: http://www.hivemq.com/overview-of-mqtt-client-tools/
+
+= HiveMQ JMX Plugin
+
+== Description
+
+This HiveMQ plugin enables JMX monitoring for HiveMQ. When the plugin is loaded you can use any JMX monitoring tool to get statistics and insights of HiveMQ.
+
+*Here is an excerpt of the metrics that are exposed over JMX:*
+
+* All active clients
+* All inactive clients
+* How many messages of a certain message type (Publish, Subscribe, ...) were received
+* How many messages of a certain message type were sent
+* Total number of subscriptions
+* Total number of retained messages
+* ... and many more
+
+
+== How to use the plugin
+
+. This plugin is shipped with HiveMQ, please check your plugin folder, if it is already there
+. Other wise copy the jar file to your +<HIVEMQ_HOME>/plugins+ folder 
+. Run HiveMQ
+. Open any JMX tool like Java Mission Control and open the MBean Browser for the HiveMQ process
+. You should see all metrics under the +metrics+ folder starting with +com.hivemq+
+
