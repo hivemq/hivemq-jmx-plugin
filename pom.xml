@@ -21,13 +21,13 @@
 
     <groupId>com.hivemq.plugins.metrics.jmx</groupId>
     <artifactId>hivemq-jmx-metrics-plugin</artifactId>
-    <version>3.0.0</version>
+    <version>3.1.0</version>
 
     <dependencies>
         <dependency>
             <groupId>com.hivemq</groupId>
             <artifactId>hivemq-spi</artifactId>
-            <version>3.0.0</version>
+            <version>3.1.0</version>
             <scope>provided</scope>
         </dependency>
     </dependencies>
