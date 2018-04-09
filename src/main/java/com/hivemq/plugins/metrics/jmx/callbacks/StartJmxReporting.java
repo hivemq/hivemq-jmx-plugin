@@ -66,7 +66,9 @@ public class StartJmxReporting implements OnBrokerStart, OnBrokerStop {
 
     @Override
     public void onBrokerStop() {
-        jmxReporter.stop();
+        if (jmxReporter != null) {
+            jmxReporter.stop();
+        }
     }
 
     @Override
