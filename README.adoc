@@ -25,3 +25,10 @@ This HiveMQ plugin enables JMX monitoring for HiveMQ. When the plugin is loaded 
 . Open any JMX tool like Java Mission Control and open the MBean Browser for the HiveMQ process
 . You should see all metrics under the +metrics+ folder starting with +com.hivemq+
 
+= Contributing
+
+If you want to contribute to HiveMQ JMX Plugin, see the link:CONTRIBUTING.md[contribution guidelines].
+
+= License
+
+HiveMQ JMX Plugin is licensed under the `APACHE LICENSE, VERSION 2.0`. A copy of the license can be found link:LICENSE.txt[here].
